@@ -10,7 +10,7 @@ const backgrounds = [
 ];
 
 export default function Landing() {
-  // Removed unused authentication state variables
+  
   const [bg, setBg] = useState(0);
   const [fade, setFade] = useState(true);
   const navigate = useNavigate();
@@ -28,13 +28,13 @@ export default function Landing() {
 
   return (
     <div className="landing-bg">
-  {/* Auth buttons removed as requested */}
+  
       <div
         className={`landing-bg-img${fade ? " fade-in" : " fade-out"}`}
         style={{ backgroundImage: `url(${backgrounds[bg]})` }}
       />
       <div className="landing-glass-overlay">
-  {/* Auth modals removed as requested */}
+  
         <h1 className="landing-logo">
           <span className="aliflex-logo-animated">ALIFLEX</span>
           <span className="landing-tagline">Movie Discovery</span>

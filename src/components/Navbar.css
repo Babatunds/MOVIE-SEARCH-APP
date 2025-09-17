@@ -201,6 +201,26 @@
   .hamburger {
     display: flex;
   }
+  .search-box {
+    gap: 4px;
+    padding: 2px 4px;
+  }
+  .search-dropdown {
+    font-size: 0.9rem;
+    padding: 4px 6px;
+    min-width: 80px;
+    max-width: 120px;
+  }
+  .search-input {
+    font-size: 0.9rem;
+    padding: 4px 8px;
+    min-width: 80px;
+    max-width: 120px;
+  }
+  .search-btn {
+    padding: 4px 6px;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -216,26 +236,26 @@
     padding: 40px 4px 0 4px;
     gap: 12px;
   }
-    .search-box {
-      gap: 4px;
-      padding: 2px 4px;
-    }
-    .search-dropdown {
-      font-size: 0.8rem;
-      padding: 4px 6px;
-      min-width: 60px;
-      max-width: 80px;
-    }
-    .search-input {
-      font-size: 0.8rem;
-      padding: 4px 8px;
-      min-width: 60px;
-      max-width: 80px;
-    }
-    .search-btn {
-      font-size: 0.8rem;
-      padding: 4px 6px;
-    }
+  .search-box {
+    gap: 2px;
+    padding: 1px 2px;
+  }
+  .search-dropdown {
+    font-size: 0.8rem;
+    padding: 2px 4px;
+    min-width: 60px;
+    max-width: 90px;
+  }
+  .search-input {
+    font-size: 0.8rem;
+    padding: 2px 6px;
+    min-width: 60px;
+    max-width: 90px;
+  }
+  .search-btn {
+    padding: 2px 4px;
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 400px) {
@@ -251,26 +271,26 @@
     padding: 24px 2px 0 2px;
     gap: 8px;
   }
-    .search-box {
-      gap: 2px;
-      padding: 1px 2px;
-    }
-    .search-dropdown {
-      font-size: 0.7rem;
-      padding: 2px 4px;
-      min-width: 40px;
-      max-width: 60px;
-    }
-    .search-input {
-      font-size: 0.7rem;
-      padding: 2px 4px;
-      min-width: 40px;
-      max-width: 60px;
-    }
-    .search-btn {
-      font-size: 0.7rem;
-      padding: 2px 4px;
-    }
+  .search-box {
+    gap: 1px;
+    padding: 0 1px;
+  }
+  .search-dropdown {
+    font-size: 0.7rem;
+    padding: 1px 2px;
+    min-width: 40px;
+    max-width: 60px;
+  }
+  .search-input {
+    font-size: 0.7rem;
+    padding: 1px 4px;
+    min-width: 40px;
+    max-width: 60px;
+  }
+  .search-btn {
+    padding: 1px 2px;
+    font-size: 0.7rem;
+  }
 }
 
 
