@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ALIFLEX
 
 A professional, Netflix-inspired movie discovery web app built with React, Vite, and TMDb API.
@@ -62,3 +63,5 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ## License
 
 This project is licensed under the MIT License.
+# MOVIE-SEARCH-APP
+aae2dd20b5d7abff19f2acd9f1f5a5f553a88179
